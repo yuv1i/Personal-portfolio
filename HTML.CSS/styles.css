@@ -1,0 +1,209 @@
+@font-face {
+  font-family: "myFont";
+  src: url('../HTML.CSS/Aurora.otf');
+}
+
+@font-face {
+  font-family: "myfont2";
+  src: url('../HTML.CSS/Calligraphy.otf');
+}
+
+@font-face {
+  font-family: "myfont3";
+  src: url('../HTML.CSS/sol.ttf');
+}
+
+@font-face {
+  font-family: "myfont4";
+  src: url('../HTML.CSS/Lostar.ttf');
+}
+
+@font-face {
+  font-family: "myfont5";
+  src: url('../HTML.CSS/fire.ttf');
+}
+
+@font-face {
+  font-family: "myfont6";
+  src: url('../HTML.CSS/home.ttf');
+}
+
+@font-face {
+  font-family: "myfont7";
+  src: url('../HTML.CSS/in.ttf');
+}
+@font-face {
+  font-family: "myfont8";
+  src: url('../HTML.CSS/Megidana.otf');
+}
+
+@font-face {
+  font-family: "myfont9";
+  src: url('../HTML.CSS/2.otf');
+}
+@font-face {
+  font-family: "myfont10";
+  src: url('../HTML.CSS/1.otf');
+}
+
+html {
+  height: 100%;
+}
+
+#video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+#content {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: myfont3;
+  line-height: 1.6;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Style for the menu items */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        /* Style for the menu item links */
+        .dropdown-content a {
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            color: #333;
+        }
+
+        /* Change the color of links when you hover over them */
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        /* Show the dropdown menu when hovering over the parent */
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+header h1 a {
+  margin: 0;
+  text-align: center;
+  font-family: myFont7;
+  color: #738678;
+  text-decoration: none; 
+  display:grid; 
+  place-items: center;
+  height: 30vh;
+  font-size: 70px;
+}
+
+header h1 a {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  word-spacing: 3px;
+  font-family: myfont10;
+  font-size: 50px;
+  color: #738678;
+}
+p1 {
+  text-align: center;
+  word-spacing: 3px;
+  font-family: myfont9;
+  font-size: 20px;
+  color: #738678; 
+  display:grid;
+  place-items: center :
+
+}
+p3 {
+  text-align: center;
+  word-spacing: 3px;
+  font-family: myfont3;
+  color: #738678;
+  height: 100vh; 
+  display:grid;
+  place-items: center :
+}
+h2, p4 {
+  text-align: center;
+  word-spacing: 3px;
+  font-family: myfont3;
+  color: #738678;
+  display:grid;
+  place-items: center :
+}
+
+nav ul {
+  font-family: myfont6;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+nav div ul li {
+  display:grid;
+  place-items: center :
+
+}
+
+nav a {
+  color: #738678;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+#lodu:after {
+  height: 3px;
+  width: 0;
+  background: #FFFFFF;
+  position: center;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+
+#lodu:hover:after {
+  width: 100%;
+}
